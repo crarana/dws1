@@ -10,10 +10,9 @@ body {
 	color: #222222;
 	font-family: 'Quattrocento Sans', sans-serif;
 	line-height: 24px;
-	font-weight: 1200;
+	font-weight: 800;
 	font-size: 16px;
 	text-align: left;
-	text-shadow: #000000;
 }
 
 
@@ -76,7 +75,7 @@ img {
 	box-shadow: 10px 10px 5px #888;
 	display: inline;
 	width: 297px;
-	height: 167 px;
+	height: 167px;
 	Margin: 10px 10px 10px 10px;
 	padding: 3px 3px 3px 3px;
 	
