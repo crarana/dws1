@@ -16,7 +16,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	text-align: left;
 }
 
@@ -67,7 +67,8 @@ a:active{
 
 /* Styling for images */
 img { 
-	border-radius: 13px;
+	border-radius: 17%;
+	vertical-align: top;
 	-moz-box-shadow: 10px 10px 5px #888;
 	-webkit-box-shadow: 10px 10px 5px #888;
 	box-shadow: 10px 10px 5px #888;
@@ -80,6 +81,7 @@ img {
 figure {
 	display: inline-block;
 	width: 300px;
+	vertical-align: top;
 }
 
 
@@ -136,7 +138,6 @@ figure {
 	background: -o-linear-gradient(top,  #f7f7f7 0%,#e0e0e0 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #f7f7f7 0%,#e0e0e0 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #f7f7f7 0%,#e0e0e0 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
  	width: 99%;
 	margin: 0 auto;
 	padding: 2%;
