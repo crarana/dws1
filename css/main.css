@@ -2,16 +2,21 @@
 
 /* Whole Page */
 html {
-	width: 1000px;
+	width: 100%;
 	margin: 0 auto;
 }
 body {
-	background-color: #FFFFFF;
+	background-image: url(../images/bgfull.jpg);
 	color: #222222;
+	background-attachment: fixed;
 	font-family: 'Quattrocento Sans', sans-serif;
-	line-height: 24px;
+	line-height: 1.5em;
 	font-weight: 800;
-	font-size: 16px;
+	font-size: 1em;
+	padding: 0;
+	margin: 0;
+	background-size: cover;
+	background-repeat: none;
 	text-align: left;
 }
 
@@ -21,8 +26,10 @@ body {
 
 h1 {
 	color: #599CF3;
-	text-shadow: 2px 2px 8px #898989;
+	text-shadow: .2em .2em .2em #898989;
 	font-style: normal;
+	margin: 2%;
+	display: inline-block;
 }
 h2 {
 	color: #FFFF4E;
@@ -57,15 +64,6 @@ a:active{
 	font-family: 'Play', sans-serif;
 }
 
-/* Intro paragraph styling */
-.intro {
-	width: 1000px;
-	margin: 0 auto;
-	text-align: left;
-	border: thick #CFC641;
-	padding-left: 25px;	
-}
-
 
 /* Styling for images */
 img { 
@@ -77,8 +75,7 @@ img {
 	width: 297px;
 	height: 167px;
 	Margin: 10px 10px 10px 10px;
-	padding: 3px 3px 3px 3px;
-	
+	padding: 3px 3px 3px 3px;	
 }
 figure {
 	display: inline-block;
@@ -86,7 +83,82 @@ figure {
 }
 
 
-/* stling to lists */
-ol.circle { 
-	list-style-type: circle;
+
+
+/* div containers */
+/*header*/
+.header {
+	width: 100%;
+	background-color: #3E3E3E;
+}
+/*intro*/
+.intro {
+	width: 90.9%;
+	background-image: url(../images/presence-ii/presence-ii.png);
+	background-repeat: repeat;
+	padding: 2%;
+	background-position: left;
+	font-weight: 800;
+	margin: 0 2.5%;
+}
+/*contents*/
+.contents {
+	list-style: none;
+	float: right;
+	clear: none;
+	width: 60%;
+}
+/*gameplay and modes */
+.gameplay, .modes {
+	background-image: url(../images/headerbg.png);
+	background-repeat: repeat;
+	width: 45.9%;
+	margin: 1%;
+	padding: 1%;
+	clear: right;
+	float: left;	
+	display: inline;
+}
+/*classes and gallery*/
+ .classes, .gallery {
+	width: 95.9%;
+	background-color: #FFF;
+	margin: 1%;
+	padding: 1%;
+	clear: left;
+ }
+ /*credits*/
+ .credits {
+ 	background: #f7f7f7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f7f7f7 0%, #e0e0e0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f7f7f7), color-stop(100%,#e0e0e0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f7f7f7 0%,#e0e0e0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f7f7f7 0%,#e0e0e0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f7f7f7 0%,#e0e0e0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f7f7f7 0%,#e0e0e0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#e0e0e0',GradientType=0 ); /* IE6-9 */
+ 	width: 99%;
+	margin: 0 auto;
+	padding: 2%;
+ }
+ 
+ /* list styles */
+ 
+.contents li {
+	display: inline;
+	padding: 2%;
+	margin: 5% 2% 2% 2%;
+	list-style: none;
+	text-decoration: none;
+}
+.classes li {
+	display: inline;
+	margin: 4%;
+	padding: 2%;
+	list-style: none;
+	text-decoration: none;
+	background-position: left;
+	background-image: url(../images/1426833918_add_cross_new_plus_create-128.png);
+	background-repeat: no-repeat;
+	background-size: 20%;
 }
